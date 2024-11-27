@@ -1,0 +1,13 @@
+train: /home/d24680021/Documents/term_project/datasets/labeled_images/train/images
+val: /home/d24680021/Documents/term_project/datasets/labeled_images/valid/images
+test: /home/d24680021/Documents/term_project/datasets/labeled_images/test/images
+
+nc: 11
+names: ['breakfast_black_tea', 'chai_li_won_black_tea', 'chai_li_won_green_heart', 'chai_li_won_safe', 'chai_li_won_white_ulon', 'real_leaf_black_tea', 'real_leaf_east_women', 'real_leaf_green_tea', 'real_leaf_iron_guan_yin', 'real_leaf_u_lon_tea', 'sun_moon_black_tea']
+
+roboflow:
+  workspace: project-345hy
+  project: ml-fianl-project
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-345hy/ml-fianl-project/dataset/3

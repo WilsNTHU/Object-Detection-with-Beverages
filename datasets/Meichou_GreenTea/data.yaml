@@ -1,0 +1,13 @@
+train: /home/d24680021/Documents/term_project/datasets/Meichou_GreenTea/train/images
+val: /home/d24680021/Documents/term_project/datasets/Meichou_GreenTea/valid/images
+test: /home/d24680021/Documents/term_project/datasets/Meichou_GreenTea/test/images
+
+nc: 1
+names: ['MeiChou_GreenTea']
+
+roboflow:
+  workspace: personal-workspace-kusbp
+  project: nthu-final-project-beveragedetec
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/personal-workspace-kusbp/nthu-final-project-beveragedetec/dataset/4
