@@ -2,12 +2,12 @@ train: /home/d24680021/Documents/term_project/datasets/labeled_images/train/imag
 val: /home/d24680021/Documents/term_project/datasets/labeled_images/valid/images
 test: /home/d24680021/Documents/term_project/datasets/labeled_images/test/images
 
-nc: 11
-names: ['breakfast_black_tea', 'chai_li_won_black_tea', 'chai_li_won_green_heart', 'chai_li_won_safe', 'chai_li_won_white_ulon', 'real_leaf_black_tea', 'real_leaf_east_women', 'real_leaf_green_tea', 'real_leaf_iron_guan_yin', 'real_leaf_u_lon_tea', 'sun_moon_black_tea']
+nc: 26
+names: ['ChaLiWong_BlackTea', 'ChaLiWong_BritainBlackTea', 'ChaLiWong_TsingXinOolong', 'ChaLiWong_WhiteOolong', 'Known_ChocoMilkTea', 'Known_MilkGreenTea', 'Known_MilkTea', 'MeiChou_BlackTea', 'MeiChou_GreenTea', 'RiYue_BlackTea', 'RuiSui_AppleMilk', 'RuiSui_ChocoMilk', 'RuiSui_MaltedMilk', 'RuiSui_Milk', 'TongYi_LowSugarHighFiberSoyMilk', 'TongYi_SoyMilk', 'TongYi_UnsweetenedBlackSoyMilk', 'TongYi_UnsweetenedHighFiberSoyMilk', 'YinBinShi_MilkGreenTea', 'YinBinShi_MilkTea', 'YinBinShi_WuLongMilkTea', 'YuanTsui_BlackTea', 'YuanTsui_GreenTea', 'YuanTsui_MeiRen', 'YuanTsui_TieGuanYing', 'ZaoTsan_BlackTea']
 
 roboflow:
-  workspace: project-345hy
-  project: ml-fianl-project
-  version: 3
+  workspace: personal-workspace-kusbp
+  project: nthu-final-project-beveragedetec
+  version: 6
   license: CC BY 4.0
-  url: https://universe.roboflow.com/project-345hy/ml-fianl-project/dataset/3
+  url: https://universe.roboflow.com/personal-workspace-kusbp/nthu-final-project-beveragedetec/dataset/6

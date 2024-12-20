@@ -1,5 +1,5 @@
-# ML fianl project > 2024-11-18 4:10pm
-https://universe.roboflow.com/project-345hy/ml-fianl-project
+# Nthu-Final-Project-BeverageDetec > 2024-11-29 7:44pm
+https://universe.roboflow.com/personal-workspace-kusbp/nthu-final-project-beveragedetec
 
 Provided by a Roboflow user
 License: CC BY 4.0
