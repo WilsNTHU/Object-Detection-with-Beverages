@@ -1,6 +1,10 @@
 # Object-Detection-with-Beverages
 This is a term project conducted in team of Machine Learning Course in NTHU.
 
+First, we collected our data by camera capturing which took each of us in the group some great effort while using web scrapping, for a total of about 1300 pictures. In practice, there were 26 classes for the images to be labeled on. Then, we labeled the pictures manually and augmented them using the website Roboflow and zipped them into a single file(related images can be found on the GitHub link, including the labeled ones and the predicted results.)
+
+Later, we use the model Yolo11n to train the learning model by feeding it the augmented images to train with. To test the training result, we prepare some images and videos to predict with. In short, the model works well when the images are front-sided because we only train the model with this type of image in order to reduce complexity and confusion. In general, the model can successfully predict the images under this condition with 26 custom-defined classes in total for the datatype not only images but videos as well.
+
 # Result Reproduction & Prediction
 You can reference the training model to generate the predicting result by the following directory path: ./runs/detect/train9 to predict the images and videos as well. 
 
